@@ -30,7 +30,7 @@ mightee_data.plot(idx)
 mightee_data.df.iloc[idx : idx + 1]
 
 ```
-![alt text]()
+![alt text](https://github.com/as595/MIGHTEE-FR/blob/main/images/src60.png)
 
 ---
 ### Classification Model
