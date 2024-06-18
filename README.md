@@ -30,7 +30,7 @@ mightee_data.plot(idx)
 mightee_data.df.iloc[idx : idx + 1]
 
 ```
-
+![alt text]()
 
 ---
 ### Classification Model
