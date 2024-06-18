@@ -21,7 +21,7 @@ mightee_data = CataData(
     cutout_width=70,
 )
 
-# rename columns to define image centers:
+# rename columns to define image centres:
 mightee_data.df.rename(mapper={"RA_host":"ra", "DEC_host":"dec"}, axis="columns", inplace=True)
 
 # eyeball an example:
