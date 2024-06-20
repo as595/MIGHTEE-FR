@@ -1,7 +1,7 @@
 # MIGHTEE-FR
 Fanaroff Riley Classification for the MeerKAT MIGHTEE survey.
 
-This project makes use of the following libraries:
+This project makes use of the following AI4Astro libraries:
 
 * [Cata2Data](https://github.com/mb010/Cata2Data)
 * [AstroAugmentations](https://github.com/mb010/AstroAugmentations)
