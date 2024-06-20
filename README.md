@@ -1,5 +1,5 @@
 # MIGHTEE-FR
-Fanaroff Riley Classification for the MeerKAT MIGHTEE survey.
+#### Fanaroff Riley Classification for the MeerKAT MIGHTEE survey.
 
 This project makes use of the following AI4Astro libraries:
 
