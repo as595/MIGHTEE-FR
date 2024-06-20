@@ -5,7 +5,7 @@ This project makes use of the following libraries:
 
 * [Cata2Data](https://github.com/mb010/Cata2Data)
 * [AstroAugmentations](https://github.com/mb010/AstroAugmentations)
-* [RGZ BYOL]((https://github.com/inigoval/byol)
+* [RGZ BYOL](https://github.com/inigoval/byol)
 
 as well as more standard dependencies that are listed in the requirements file.
 
