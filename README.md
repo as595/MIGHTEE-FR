@@ -39,7 +39,15 @@ mightee_data.df.iloc[idx : idx + 1]
 
 ```
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/src60.png)
+
+An [example script]() is provided to illustrate the difference between the image pre-processing steps and data transforms used by Cata2Data.
+
 ---
 ### Classification Model
 
 The classification model is based on the [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127), fine-tuned on a small number of manually classified sources from the MIGHTEE survey (see Section 3.4 of the RGZ paper).
+
+---
+### Encoding MIGHTEE data 
+
+
