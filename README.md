@@ -49,7 +49,7 @@ An example of encoding the MIGHTEE data through the pre-trained [RGZ foundation 
 
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/byol_umap_mightee.png)
 
-You can expore the MIGHTEE embedding using the [`explore_latent.py`]() script, which runs an interactive streamlit app. To launch the streamlit app use:
+You can expore the MIGHTEE embedding using the [`explore_latent.py`](https://github.com/as595/MIGHTEE-FR/blob/main/latent_explorer/explore_latent.py) script in the `latent_explorer` directory, which runs an interactive streamlit app. To launch the streamlit app use:
 
 ```bash
 streamlit run explore_latent.py
