@@ -38,7 +38,7 @@ def image_preprocessing(images):
 
         # rescale image
         img_max = np.max(img)
-        img -= 3.*rms
+        img -= 3.*rms # thresholding done here
         img /= (img_max - 3*rms)
         img *= 255.
 
