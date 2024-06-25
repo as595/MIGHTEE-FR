@@ -40,7 +40,7 @@ mightee_data.df.iloc[idx : idx + 1]
 ```
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/src60.png)
 
-An [example script](https://github.com/as595/MIGHTEE-FR/blob/main/Cata2DataMIGHTEE.ipynb) is provided to illustrate the difference between the image pre-processing steps and data transforms used by Cata2Data.
+An [example script](https://github.com/as595/MIGHTEE-FR/blob/main/examples/Cata2DataMIGHTEE.ipynb) is provided to illustrate the difference between the image pre-processing steps and data transforms used by Cata2Data.
 
 ---
 ### Classification Model
