@@ -40,12 +40,12 @@ mightee_data.df.iloc[idx : idx + 1]
 ```
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/src60.png)
 
-An [example script](https://github.com/as595/MIGHTEE-FR/blob/main/examples/Cata2DataMIGHTEE.ipynb) is provided to illustrate the difference between the image pre-processing steps and data transforms used by Cata2Data.
+An [example notebook](https://github.com/as595/MIGHTEE-FR/blob/main/examples/Cata2DataMIGHTEE.ipynb) is provided to illustrate the difference between the image pre-processing steps and data transforms used by Cata2Data.
 
 ---
 ### Encoding MIGHTEE data 
 
-An example of encoding the MIGHTEE data through the pre-trained [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127) is shown in this [example script](). The embedding looks like this.
+An example of encoding the MIGHTEE data through the pre-trained [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127) is shown in this [example notebook](https://github.com/as595/MIGHTEE-FR/blob/main/examples/PlotEmbedding.ipynb). The embedding looks like this.
 
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/byol_umap_mightee.png)
 
