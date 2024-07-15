@@ -26,7 +26,7 @@ mightee_data = CataData(
     catalogue_paths=[catlog_path],
     image_paths=[image_path],
     field_names=['COSMOS'],
-    cutout_width=70,
+    cutout_shape=70,
 )
 
 # rename columns to define image centres:
