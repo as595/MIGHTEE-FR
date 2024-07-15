@@ -45,7 +45,7 @@ An [example notebook](https://github.com/as595/MIGHTEE-FR/blob/main/examples/Cat
 ---
 ### Encoding MIGHTEE data 
 
-An example of encoding the MIGHTEE data through the pre-trained [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127) is shown in this [example notebook](https://github.com/as595/MIGHTEE-FR/blob/main/examples/PlotEmbedding.ipynb). The embedding looks like this.
+An example of encoding the MIGHTEE data through the pre-trained [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127) can be found in the `embedding` directory and is shown in this [example notebook](https://github.com/as595/MIGHTEE-FR/blob/main/examples/PlotEmbedding.ipynb). The embedding looks like this.
 
 ![](https://github.com/as595/MIGHTEE-FR/blob/main/images/byol_umap_mightee.png)
 
