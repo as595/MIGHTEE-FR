@@ -59,6 +59,14 @@ streamlit run explore_latent.py
 
 The classification model is based on the [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127), fine-tuned on a small number of manually classified sources from the MIGHTEE survey (see Section 3.4 of the RGZ paper). Code to perform this finetuning can be found in the `finetuning` directory. *A GPU accelerated machine is required to run this code*.
 
+To run use:
+
+```python
+python finetuning.py
+```
+
+This will run 10 realisations with specified seeds. The performance on each of the test data sets should be consistent with the following output.
+
 <ins>Test Accuracy</ins>
 
 | Test set &#8593; | **MIGHTEE** | **MB [conf]** | **MB [unc]** |
