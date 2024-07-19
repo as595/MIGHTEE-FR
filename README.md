@@ -69,11 +69,14 @@ This will run 10 realisations with specified seeds. The performance on each of t
 
 <ins>Test Accuracy</ins>
 
-| Test set &#8593; | **MIGHTEE** | **MB [conf]** | **MB [unc]** |
+| Test set &#8594; | **MIGHTEE** | **MB [conf]** | **MB [unc]** |
 | Finetuning Data  &#8595;  | :---: | :---: | :---: |
+
 | **MB [conf]** | 98.75&pm;0.62%   | 98.75&pm;0.62%   | 92.55&pm;0.78%   |
-| **MIGHTEE** | 88.90&pm;2.78%   |  6.0&pm;0.4%  | 0.3&pm;0.1%   |
+| **MIGHTEE** | 88.9&pm;2.8%   |  74.2&pm;3.4%  | 70.1&pm;3.0%   |
 | **MIGHTEE + MB** | 38.7&pm;2.7%   |  6.0&pm;0.4%  | 0.3&pm;0.1%   | 
+
+Checkpoints for finetuned models can be found on
 
 ---
 ### Results
