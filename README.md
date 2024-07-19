@@ -57,12 +57,22 @@ streamlit run explore_latent.py
 ---
 ### Classification Model
 
-The classification model is based on the [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127), fine-tuned on a small number of manually classified sources from the MIGHTEE survey (see Section 3.4 of the RGZ paper). Code to perform this finetuning can be found in the `finetuning` directory. A GPU accelerated machine is required to run this code.
+The classification model is based on the [RGZ foundation model](https://github.com/inigoval/byol) from [Slijepcevic+ (2023)](https://arxiv.org/abs/2305.16127), fine-tuned on a small number of manually classified sources from the MIGHTEE survey (see Section 3.4 of the RGZ paper). Code to perform this finetuning can be found in the `finetuning` directory. *A GPU accelerated machine is required to run this code*.
 
 <ins>Test Accuracy</ins>
 
-| Test set &#8593; | **MIGHTEE** | **MB [conf]** | **MB [unc]** | 
-| Finetuning Data  &#8595;  | :---: | :---: | :---: | 
-| **MB [conf]** | 98.75&pm;0.62%   | 98.75&pm;0.62%   | 92.55&pm;0.78%   | 
-| **MIGHTEE** | 88.90&pm;2.78%   |  6.0&pm;0.4%  | 0.3&pm;0.1%   | 
+| Test set &#8593; | **MIGHTEE** | **MB [conf]** | **MB [unc]** |
+| Finetuning Data  &#8595;  | :---: | :---: | :---: |
+| **MB [conf]** | 98.75&pm;0.62%   | 98.75&pm;0.62%   | 92.55&pm;0.78%   |
+| **MIGHTEE** | 88.90&pm;2.78%   |  6.0&pm;0.4%  | 0.3&pm;0.1%   |
 | **MIGHTEE + MB** | 38.7&pm;2.7%   |  6.0&pm;0.4%  | 0.3&pm;0.1%   | 
+
+---
+### Results
+
+Performing inference on the full catalogue using the finetuned model can be done using the code in the `inference` directory. 
+
+```python
+python inference.py
+```
+
